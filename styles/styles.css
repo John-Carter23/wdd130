@@ -21,13 +21,13 @@ p {
     padding: 1px;
 }
 main {
-    max-width: 840;
+    max-width: 840px;
 }
 aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: ;
+    padding: 1rem;
     background-color: #eee;
     color:#333;
     text-align: center;
