@@ -1,0 +1,12 @@
+Image: dryoarlogo3.png
+
+# color pallat
+# link: https://coolors.co/49c6e5-685155-cab7a2-19647e
+primary-color: 685155
+secondary-color: 19647E
+accent1-color: CAB7A2
+accent2-color: 49C6E5
+
+# Fonts
+Headers: Parkinsans
+Body: Open Sans

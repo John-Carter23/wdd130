@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #685155;
+    --secondary-color: #19647E;
+    --accent1-color: #CAB7A2;
+    --accent2-color: #49C6E5;
+    --text-color: #293252;
+    
+}
+
+h1 {
+    color: var(--accent2-color);
+}
+
+h2 {
+    color: var(--text-color);
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+footer nav a img {
+    max-height: 40px;
+    padding: 7px;
+}
+
+.hero {
+    position: relative;
+}
+
+#hero1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 10px;
+}
+
+#hero2 {
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    /* background-color: #111111; */
+}
+
+#heroarticle {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    top: 130px;
+    background-color: var(--accent1-color);
+}
+
+#hero3 {
+    position:absolute;
+    top: 16px;
+    right: 13px;
+    width: 175px;
+    height: auto;
+}
+
+#hero4 {
+    position: absolute;
+    max-width: 700px;
+    padding: 0px 10px 10px 13px;
+    text-align: center;
+}
