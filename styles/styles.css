@@ -5,6 +5,12 @@
     --background-color-photo-general: #eee; 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: var(--heading-background-color);
     padding: 10px;
@@ -25,6 +31,7 @@ main img {
     background-color: var(--background-color-photo-general);
     padding: 2px;
     box-shadow: var(--box-shadow-general);
+    float: right;
 }
 p {
     padding: 0px;
@@ -42,12 +49,29 @@ aside {
     text-align: center;
     /* box-shadow: var(--box-shadow-general); */
 }
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 4px;
+    color: white;
+}
 aside img {
     width: 200px;
     height: auto;
+    text-align: center;
 }
 footer {
     margin-top: 15px;
     border-top: 1px solid #000000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    clear: both;
 }
