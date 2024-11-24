@@ -22,6 +22,7 @@ nav a {
 }
 h1 {
     color: var(--heading-background-color);
+    padding: 1rem;
 }
 main img {
     width: 150px;
@@ -34,7 +35,7 @@ main img {
     float: right;
 }
 p {
-    padding: 0px;
+    padding: 1rem;
 }
 main {
     max-width: 840px;
@@ -52,8 +53,8 @@ aside {
 }
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 4px;
+    top: 27px;
+    left: 100px;
     color: white;
 }
 aside img {
