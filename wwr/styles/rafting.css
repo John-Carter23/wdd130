@@ -7,13 +7,13 @@
     
 }
 
-/* Fonts */
+/* font */
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
+  }
+  
 .pt-sans-bold {
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
@@ -32,29 +32,19 @@
     font-style: italic;
 }
 
-.pt-sans-regular {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
+.parkinsans-typed {
+    font-family: "Parkinsans", serif;
+    font-weight: 600;
     font-style: normal;
 }
-
-.pt-sans-bold {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 700;
+  
+.open-sans-typed {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
     font-style: normal;
-}
-
-.pt-sans-regular-italic {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.pt-sans-bold-italic {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
+    font-variation-settings:
+      "wdth" 100;
+  }
 
 body {
     width: 900px;
