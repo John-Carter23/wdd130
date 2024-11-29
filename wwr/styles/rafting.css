@@ -109,9 +109,8 @@ footer nav a img {
 }
 
 #hero3 {
-    position:absolute;
-    top: 16px;
-    right: 13px;
+    float: right;
+    margin: 17px;
     width: 175px;
     height: auto;
 }
