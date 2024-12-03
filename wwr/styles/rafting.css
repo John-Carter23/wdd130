@@ -45,8 +45,54 @@
     font-variation-settings: "wdth" 100;
   }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.logo {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+.imgname h1 {
+    font-size: 1rem;
+    font-family: "Parkinsans", serif;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color: var(--text-color);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+}
+
+
 body {
-    width: 900px;
+    width: 1000px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -64,7 +110,7 @@ h2 {
     font-family: "Parkinsans", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: var(--text-color);
+    color: var(--secondary-color);
 }
 
 h3 {
@@ -84,13 +130,14 @@ footer nav a img {
 
 .hero {
     position: relative;
+    margin-top: 20px;
 }
 
 #hero1 {
     display: block;
     width: 100%;
     height: auto;
-    border: 10px;
+    border: 1px solid var(--text-color);
 }
 
 #hero2 {
@@ -105,6 +152,7 @@ footer nav a img {
     height: 150px;
     width: 100%;
     top: 130px;
+    left: 1px;
     background-color: var(--accent1-color);
 }
 
@@ -120,4 +168,92 @@ footer nav a img {
     max-width: 700px;
     padding: 0px 10px 10px 13px;
     text-align: center;
+}
+
+/* This Section is my effort to styleize the History and Adventure sections of my website. */
+
+.history {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px; 
+    border: 1px solid var(--text-color);
+    background: lightblue; 
+    margin-top: 20px;
+}
+
+.history p {
+    max-width: 300px;
+    
+    
+}
+
+.history h2 {
+    color: var(--primary-color);
+    }
+
+/* This section is for the adventure parent element in about.html. */
+
+.adventure {
+    margin-top: 20px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5, 196px);
+    gap: 1px;
+    grid-template-rows: 20% 20%;
+    border: 1px solid var(--text-color);   
+}
+
+#adname {
+    width: 1000px;
+    background-color: var(--accent1-color);
+    color: var(--text-color);
+    grid-column: 1/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fig1 img {
+    width: 130px;
+    grid-column: 1/2;
+    height: auto;
+}
+
+#fig2 img {
+    width: 130px;
+    grid-column: 2/3;
+    height: auto; 
+}
+
+#fig3 img {
+    width: 130px;
+    grid-column: 3/4;
+    height: auto;
+}
+
+#fig4 img {
+    width: 130px;
+    grid-column: 4/5;
+    height: auto;
+}
+
+#fig5 img {
+    width: 130px;
+    grid-column: 5/6;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footwords {
+    color: #fff;
 }

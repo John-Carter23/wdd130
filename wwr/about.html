@@ -7,18 +7,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>White Water Rafting Website</title>
+    <title>Dry Oar Rafting CO</title>
     <meta name="author" content="Jacob Heath">
     <meta name="description" content="A site to find awesome white water rafting adventures and get aways.">
 </head>
 <body>
     <header>
-        <img src="images/dryoarlogo.png" alt="images/none.webp">
+        <img class="logo" src="images/dryoarlogo.png" alt="images/none.webp">
+        <h1 class="imgname">Dry Oar Rafting</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="trips.html">Trips</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -29,36 +32,47 @@
                 <img id="hero3" src="images/happyc.webp" alt="images/none.webp">
                 <p id="hero4">Lorem Ipsum Here I will write many things to say how amazing this fake company is. How wonderful and exiting it is to white water raft. I really like to code and so I hope you like what I have made.</p>
             </article>
-            <section>
+            <section class="history">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <h2>History</h2>
-                <p>Lorem Ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </section>
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <h3>Argentina</h3>
-                <img src="images/adventure1.webp" alt="">
-                <h3>Idaho</h3>
-                <img src="images/adventure2.webp" alt="">
-                <h3>Brazil</h3>
-                <img src="images/adventure3.webp" alt="">
-                <h3>Utah</h3>
-                <img src="images/adventure4.webp" alt="">
-                <h3>Missouri</h3>
-                <img src="images/adventure5.webp" alt="">
+            <section class="adventure">
+                <h2 id="adname">Adventure Awaits You!</h2>
+                <figure id="fig1">
+                  <img src="images/adventure1.webp" alt="">
+                  <figcaption>Argentina</figcaption>
+                </figure> 
+                <figure id="fig2"> 
+                  <img src="images/adventure2.webp" alt="">
+                  <figcaption>Idaho</figcaption>
+                </figure>
+                <figure id="fig3">
+                  <img src="images/adventure3.webp" alt="">
+                  <figcaption>Brazil</figcaption>
+                </figure>
+                <figure id="fig4">
+                  <img src="images/adventure4.webp" alt="">
+                  <figcaption>Utah</figcaption>
+                </figure>
+                <figure id="fig5">
+                  <img src="images/adventure5.webp" alt="">
+                  <figcaption>Missouri</figcaption>
+                </figure>
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="footwords">
         <p>lorem ipsum</p>
-        <p>©2024 #! Jacob Heath #! Utah, USA</p>
+        <p id="mark" >©2024 #! Jacob Heath #! Utah, USA</p>
         <nav class="sociallinks">
-            <a href="https://facebook.com">
+            <a id="facebook" href="https://facebook.com">
                 <img src="images/facebook.webp" alt="images/none.webp">
             </a>
-            <a href="https://twitter.com">
+            <a id="twitter" href="https://twitter.com">
                 <img src="images/twitter.webp" alt="images/none.webp">
             </a>
-            <a href="instagram.com">
+            <a id="instagram" href="instagram.com">
                 <img src="images/instagram.webp" alt="images/none.webp">
             </a>
         </nav>
