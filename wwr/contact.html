@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Dry Oar Rafting CO Contact Page</title>
+    <meta name="author" content="Jacob Heath">
+    <meta name="description" content="A site to find awesome white water rafting adventures and get aways, contact and location page.">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/dryoarlogo.png" alt="images/none.webp">
+        <h1 class="imgname">Dry Oar Rafting</h1>
+        <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="trips.html">Trips</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="companyinfo">
+            <div class="company">
+                <h2>Company Information</h2>
+                <div class="info">
+                    <h3>Address:</h3>
+                    <p id="address">9669 Tutone Street, Saratoga Springs, UT 84181</p>
+                    <h3>Phone Number:</h3>
+                    <p id="phone">867-5309</p>
+                    <h3>Email:</h3>
+                    <p id="email">dryoar.trips@dorc.net</p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97309.1958381196!2d-111.91013005000003!3d40.3442899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7ec978bb7a97%3A0xc5493ac704ae8275!2sSaratoga%20Springs%2C%20UT!5e0!3m2!1sen!2sus!4v1733858764452!5m2!1sen!2sus" width="948" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="ourteam">
+            <h2>Our Team</h2>
+            <figure id="fig1">
+                <img src="images/contact/tommyheath.webp"  alt=""> 
+                <figcaption>Tommy Heath | CEO</figcaption>      
+            </figure>
+            <figure id="fig2">
+                <img src="images/contact/jimkeller.webp" alt="">
+                <figcaption>Jim Keller | Trip Scheduler</figcaption>
+            </figure>
+            <figure id="fig3">
+                <img src="images/contact/alexcall.webp"  alt=""> 
+                <figcaption>Alex Call | Trip Advisor</figcaption> 
+            </figure>    
+        </div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="column2">
+                        <label for="fullname">Your Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="column2">
+                        <label for="useremail">Your Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Purpose</legend>
+                    <div class="column1">
+                        <input type="radio" id="pchoice1" name="purpose">
+                        <label for="gi">General Inquiry</label>
+                        <input type="radio" id="pchoice2" name="purpose">
+                        <label for="rq">Reservation Question</label>
+                        <input type="radio" id="pchoice3" name="purpose">
+                        <label for="ws">Website Suggestion</label>
+                    </div>
+                </fieldset>
+                <fieldset id="message">
+                    <legend>Message</legend>
+                    <div>
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message here."></textarea>
+                    </div>
+                    <div class="column1">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Message</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footwords">
+        <a id="designpage" href="https://app.moqups.com/J5pDgMJqQjzz3mRcHrdoDHMsGgcWMs2T/view/page/ad64222d5">Design Link</a>
+        <p id="mark" >©2024 #! Jacob Heath #! Utah, USA</p>
+        <nav class="sociallinks">
+            <a id="facebook" href="https://facebook.com">
+                <img src="images/facebook.webp" alt="images/none.webp">
+            </a>
+            <a id="twitter" href="https://twitter.com">
+                <img src="images/twitter.webp" alt="images/none.webp">
+            </a>
+            <a id="instagram" href="instagram.com">
+                <img src="images/instagram.webp" alt="images/none.webp">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

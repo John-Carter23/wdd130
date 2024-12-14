@@ -1,0 +1,316 @@
+:root {
+    --primary-color: #685155;
+    --secondary-color: #19647E;
+    --accent1-color: #CAB7A2;
+    --accent2-color: #49C6E5;
+    --text-color: #293252;
+    
+}
+
+/* font */
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.parkinsans-typed {
+    font-family: "Parkinsans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.open-sans-typed {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+/* Header Styling */
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.logo {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+.imgname h1 {
+    font-size: 1rem;
+    font-family: "Parkinsans", serif;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color: var(--text-color);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+}
+
+/* General Styling */
+body {
+    width: 1000px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1 {
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--accent2-color);
+}
+
+h2 {
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--secondary-color);
+}
+
+h3 {
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Company Information Section Styling */
+.companyinfo {
+    background-color: #c1f0fc;
+    border: 1px solid gray;
+}
+
+.company h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+    background-color: var(--accent1-color);
+}
+
+.info {
+    border: 1px solid gray;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info h3 {
+    text-decoration: underline;
+}
+
+#address, #phone, #email {
+    order: 1;
+}
+
+
+.map {
+    padding: 25px;
+}
+
+/* Our Team section Styling */
+.ourteam {
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid gray;
+    background-color: #c1f0fc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+
+.ourteam h2 {
+    grid-column: 1/4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--accent1-color);
+    
+}
+
+.ourteam img {
+    height: 200px;
+}
+
+.ourteam figcaption {
+    text-align: ;
+}
+
+/* Contact Us section Styling */
+.contact {
+    width: 997px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    background-color: #c1f0fc;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+}
+
+#message {
+    grid-column: 1 / 3;
+    width: 850px;
+    }
+
+.contact button {
+    grid-column: 1/3;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(1, 1, 50 / 0.2);
+    padding: 1rem; 
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: lightgray;
+    color: black;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #f00;
+    color: #fff;
+    font-weight: 700;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+/* Footer section */
+footer {
+    display: flex;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footwords {
+    color: #fff;
+}
+
+#designpage {
+    color: #fff;
+    text-decoration: none;
+}
+
+#designpage:hover {
+    color: tomato;
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+footer nav a img {
+    max-height: 40px;
+    padding: 7px;
+}
