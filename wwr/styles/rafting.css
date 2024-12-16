@@ -257,3 +257,76 @@ footer {
 .footwords {
     color: #fff;
 }
+
+/* This is all for the index page */
+
+.history form {
+    padding-bottom: 8px;
+}
+
+form button {
+    border-radius: 0.5em;
+    background-color: var(--primary-color);
+    border: 1px solid grey;
+    color: #fff;
+}
+
+form button:hover {
+    background-color: tomato;
+    color: #fff;
+    border-radius: 0.5em;
+    border:1px solid grey;
+}
+
+.history fieldset {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3 {
+    border: 1px solid black;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.offerings {
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.offerings p {
+    grid-row: 1 / 4;
+    padding-bottom: 18px;
+}
+
+.triplink {
+    position: fixed;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    bottom: 70px;
+    background-color: var(--primary-color);
+}
+
+.triplink h2 {
+    color: #fff;
+}
+
+.triplink a {
+    color: red;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    padding: 5px;
+}
+
+.triplink a:hover {
+    background-color: tomato;
+    color: #fff;
+}
