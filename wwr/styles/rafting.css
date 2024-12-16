@@ -145,6 +145,7 @@ footer nav a img {
     top: 25px;
     left: 300px;
     /* background-color: #111111; */
+    text-shadow: 1px 1px 3px #000;
 }
 
 #heroarticle {
@@ -321,6 +322,7 @@ form button:hover {
 
 .triplink a {
     color: red;
+    text-decoration: none;
     background-color: #fff;
     border-radius: 0.25rem;
     padding: 5px;
